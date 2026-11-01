@@ -1,0 +1,5 @@
+PROJECT - E-Commerce Sales & Customer Analytics
+Tech: Python (Pandas, NumPy, Matplotlib), MySQL, Power BI
+- Prepared a 1,500-row simulated e-commerce dataset and a repeatable Python/Pandas workflow for data profiling, KPI calculations and exploratory analysis.
+- Wrote MySQL queries for monthly revenue, category and city performance, customer segments, sales channels, discount levels and profit margins.
+- Documented Power BI KPI definitions and a report layout for revenue, profit, average order value, margin and customer performance.

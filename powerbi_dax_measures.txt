@@ -1,0 +1,8 @@
+-- Create these measures in Power BI after importing the CSV as a table named Orders.
+Total Revenue = SUM(Orders[net_sales])
+Total Profit = SUM(Orders[profit])
+Total Orders = DISTINCTCOUNT(Orders[order_id])
+Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+Profit Margin % = DIVIDE([Total Profit], [Total Revenue])
+Average Rating = AVERAGE(Orders[customer_rating])
+Average Delivery Days = AVERAGE(Orders[delivery_days])
